@@ -17,8 +17,10 @@ public class Posts {
 	@Id
 	@GeneratedValue
 	private Long id;
+	
 	@Column(length = 500, nullable = false)
 	private String title;
+	
 	@Column(columnDefinition = "TEXT", nullable = false)
 	private String content;
 	private String author;
