@@ -2,11 +2,13 @@ package com.project.webservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 
+@EnableJpaAuditing // JPA Auditing È°¼ºÈ­
 @SpringBootApplication
-public class SpringWebservice1Application {
+public class Application {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringWebservice1Application.class, args);
+		SpringApplication.run(Application.class, args);
 	}
 }
