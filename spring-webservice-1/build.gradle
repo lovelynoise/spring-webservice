@@ -25,7 +25,7 @@ repositories {
 }
 
 //Spring Boot Overriding 
-ext['hibernate.version'] = '5.2.11.Final' //Ãß°¡
+ext['hibernate.version'] = '5.2.11.Final'
 
 
 dependencies {
